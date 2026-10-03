@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "alex.ci",
+  "name": "CI",
+  "version": "1.0.0",
+  "author": "Alexandre Vargas",
+  "license": "MIT",
+  "description": "Painel das Actions do devaction-labs, com o log da run que falhou e um botão para copiar.",
+  "kinds": ["service", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "CI",
+    "category": "Development",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
